@@ -1,0 +1,296 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul li{
+    list-style: none;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*内容居中*/
+.center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-nav > li{
+    border-right: 1px dashed #17497a;
+}
+.navbar-nav >li:nth-child(9){
+    border-right: none;
+}
+.logo{
+    background:#023d77;
+}
+.img{
+    width:100%;
+    float: left;
+}
+.navbar{
+    margin-bottom: 0;
+    border:0;
+}
+.guanyu{
+   text-align: center;
+}
+.guanyu-p{
+    display: inline-block;
+    font-size:38px ;
+    color:#0a437b;
+    font-weight: bold;
+    margin-top: 37px;
+}
+.guanyu-p>span{
+    font-size:38px ;
+    color:#7b7b7b;
+}
+.xinfu{
+    font-size: 16px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.guanyu-ps{
+    font-size: 22px;
+}
+.guanyu-psi{
+    color: #747474;
+}
+
+.xian{
+    width:78px;
+    display: inline-block;
+    padding-top:2px;
+    border-top: 1px solid #b4b4b6;
+}
+.dian{
+    width:5px;
+    height:5px;
+    padding-top:5px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #b4b4b6;
+}
+.xing-h2{
+    font-size:18px ;
+    color: #3f3f3f;
+}
+.xing-pp{
+    color: #6e6e6e;
+    font-size: 12px;
+}
+
+.xing-ul{
+    margin-bottom: 52px;
+}
+
+
+
+
+
+
+.rongyu{
+    background-color: #0272b6;
+}
+.rongyu-p{
+    display: inline-block;
+    font-size:38px ;
+    color:#fff;
+    font-weight: bold;
+    margin-top:49px;
+}
+.rongyu-span{
+    color: #f5b041;
+}
+.xinfu-ss{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.xinfu-p{
+    color:#ffffff;
+}
+.tu-img{
+    width:80%;
+    margin: 0 auto;
+}
+.ppp{
+    margin-top: 27px;
+    margin-bottom: 32px;
+}
+.more{
+    width:86px;
+    height:23px;
+   border-radius: 10px;
+   background-color: #fff;
+   margin: 0 auto;
+   color: #313131;
+   display: inline-block;
+   margin-bottom: 26px;
+}
+
+
+
+
+
+
+
+
+.xinwen-p{
+    font-size: 36px;
+    color:#808080 ;
+    margin-top: 53px;
+    font-weight: bold;
+}
+.xinwen-p>span{
+    color:#0a437b ;
+}
+
+.xinwen{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.xin-ban{
+    width:50%;
+    margin: 0 auto;
+    float: left;
+}
+.xin-left{
+   float: left;
+   margin-right: 6px;
+}
+.xin-right-p{
+    font-size: 12px;
+    color: #292929;
+    display:block;
+}
+.xin-right-pp{
+    font-size:11px ;
+    color: #2282bd;
+    padding-left: 12px;
+    display: inline-block;
+}
+
+
+
+
+
+.xinwen-ul{
+    width: 50%;
+    float: left;
+}
+.xinwen-ul li{
+    font-size:14px ;
+    color:#292929;
+   /* list-style:block ;*/
+}
+.xinwen-span{
+    margin-right:134px ;
+    /*float: left;*/
+}
+.xinwen-rr{
+    float: right;
+    padding-right: 50px;
+}
+.xinwen-span-p{
+    /*margin-right:134px ;*/
+    float: left;
+}
+.genduo{
+    width:49px;
+    height:49px;
+   border-radius: 50%;
+   background-color: #023d77;
+   line-height: 49px;
+   margin: 0 auto;
+   color: #fff;
+   display: inline-block;
+   margin-bottom: 26px;
+}
+
+
+
+.font{
+    background-color: #30333a;
+    padding-top:48px; 
+}
+.font-guanyu{
+    width:80%;
+    margin: 0 auto;
+}
+.font-left{
+    width:65%;
+    float: left;
+}
+.font-left-span{
+    display: inline-block;
+    font-size: 14px;
+    color:#c0c1c3 ;
+    margin-left: 10px;
+    margin-right: 42px;
+}
+.font-right{
+    width: 35%;
+    float: right;
+}
+.font-img-in input{
+    margin-left: 40px;
+    background-color: #1d2026;
+    border:none;
+    outline: none;
+    height: 32px;
+}
+.font-input{
+    margin-bottom:4px;
+}
+
+
+.text{
+    width:299px;
+    height:105px;
+    background-color:#1d2026;
+    border:none;
+    outline: none;
+    margin-left: 10px; 
+}
+.button{
+    width:35px;
+    height: 105px;
+    font-size:12px ;
+    color: #fff;
+    background-color: #3baff7;
+    border: none;
+    outline: none;
+}
+
+
+.font-img{
+    float: left;
+}
+.font-ss{
+    font-size: 13px;
+    color: #fff;
+    margin-left: 10px;
+    display: inline-block;
+}
+.font-size{
+    font-size:12px ;
+    color: #98999d;
+}
+
+/*.font-beijing{
+    display: inline-block;
+    margin-top:16px;
+}*/
+.font-bai{
+    margin-top: 33px;
+    font-size: 10px;
+    color: #fff;
+    padding-top: 16px;
+    border-top: 1px dashed #262a30
+}
